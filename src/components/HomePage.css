@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;600&display=swap");
+
+/* Ana Sayfa genel ayarları */
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3%;
+  color: white;
+  background-image: url("/mvp-banner.png");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Ana sayfa içeriğinde p ayarları */
+.home-page p {
+  font-family: "Barlow", sans-serif;
+  font-stretch: ultra-condensed;
+  font-size: 2rem;
+}
+
+/* Logo ayarları */
+.tekyem-logo {
+  background-color: #ce2829;
+  text-align: center;
+}
+
+/* Buton ayarları */
+#order-pizza {
+  padding-right: 2%;
+  padding-left: 2%;
+  font-size: 14px;
+  margin: auto;
+  width: 8rem;
+  height: 3rem;
+  border-radius: 50px;
+  background-color: #fdc913;
+  border: 0rem;
+  font-weight: bold;
+  font-family: "Barlow", sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+/* Buton üzerine gelme ayarları */
+#order-pizza:hover {
+  opacity: 0.5;
+}

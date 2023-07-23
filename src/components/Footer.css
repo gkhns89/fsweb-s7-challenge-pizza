@@ -1,0 +1,126 @@
+/* Footer renk ayarı */
+.footer {
+  background-color: #292929;
+  color: white;
+}
+
+/* Footer kapsayıcı genel ayarları */
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: auto;
+  padding-top: 3%;
+}
+
+/* Footer kapsayıcı içeriğindeki p ayarı */
+.footer-container p {
+  font-family: Quattrocento;
+  font-size: small;
+  padding: 0%;
+  margin: 0%;
+  padding-bottom: 8%;
+}
+
+/* Footer kapsayıcı içeriğindeki h3 ayarı */
+.footer-container h3 {
+  margin-right: 80%;
+  font-family: Quattrocento;
+  width: 50%;
+}
+
+/* İletişim genel ayarlar */
+.iletisim {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 27%;
+  margin: 0;
+}
+
+/* İletişim içeriğindeki p ayarları */
+.iletisim p {
+  padding-bottom: 15%;
+  margin-right: 30%;
+  margin-left: 1%;
+}
+
+/* İletişim içeriğindeki ilk nesnenin p ayarı */
+.iletisim:first-child p {
+  width: 60%;
+}
+
+/* İletişim içeriğindeki img ayarları */
+.iletisim img {
+  width: 8%;
+  height: 8%;
+}
+
+/* Menü genel ayarları */
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: 0;
+  margin-right: 30%;
+}
+
+/* Menü içeriğindeki a ayarları */
+.menu a {
+  margin-bottom: 6%;
+  font-family: Quattrocento;
+  font-size: small;
+  color: white;
+}
+
+/* Menü içeriğindeki a üzerine gelme ayarları */
+.menu a:hover {
+  background-color: #faf7f2;
+  color: black;
+}
+
+/* Insta bölümü ayarları */
+.instagram {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/* Insta içeriğindeki h5 ayarı */
+.instagram h5 {
+  width: 100%;
+}
+
+/* Insta içeriğindeki img ayarları */
+.instagram img {
+  width: 70px;
+  height: 70px;
+  margin: 0;
+}
+
+/* Copy bölümü genel ayarları */
+.copyright {
+  width: 100%;
+  border-top: 1px solid #5f5f5f;
+}
+
+/* Copy ikon ayarları */
+.copyright-icon {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 70%;
+  margin: auto;
+}
+
+/* Copy içeriğindeki p ayarları */
+.copyright p {
+  width: 70%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: medium;
+  font-family: Quattrocento;
+}

@@ -1,0 +1,260 @@
+.order-header {
+  width: 100%;
+  background-color: #ce2829;
+  color: #faf7f2;
+  padding: 0.1%;
+  text-align: center;
+  height: 80px;
+}
+
+.order-header h1 {
+  margin-bottom: 0;
+  margin-top: 1%;
+  font-family: Barlow;
+}
+.order-header h1:hover {
+  cursor: pointer;
+}
+
+.contents {
+  background-color: #faf7f2;
+  display: flex;
+  flex-direction: column;
+  font-family: Quattrocento;
+}
+
+.contents img {
+  width: 40%;
+  margin: auto;
+}
+
+.contents nav {
+  width: 40%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.order-form-container {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.boyut-hamur {
+  width: 100;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.pizza-boyutu {
+  width: 50%;
+  font-size: 1rem;
+  margin: 5% 0;
+}
+
+.pizza-boyutu h5 {
+  margin: 0;
+}
+
+.pizza-boyutu input {
+  display: none;
+}
+
+.pizza-boyutu label {
+  margin-right: 8%;
+  color: #5f5f5f;
+  background-color: #faf7f2;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pizza-boyutu input:checked + label {
+  background-color: #fdc913;
+  border-radius: 100px;
+}
+
+.hamur {
+  width: 50%;
+  font-size: 1rem;
+  margin: 5% 0;
+}
+
+.hamur h5 {
+  margin: 0;
+}
+
+.hamur select {
+  height: 3vw;
+  background-color: #faf7f2;
+  border: #faf7f2;
+  color: #5f5f5f;
+  width: 100%;
+}
+
+.ek-malzemeler {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 3% 0;
+}
+
+.ek-malzemeler .baslik {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.ek-malzemeler p {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 1%;
+  color: #5f5f5f;
+  font-size: small;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  width: 33%;
+  font-family: Barlow;
+  color: #5f5f5f;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.checkbox input {
+  display: none;
+}
+
+.checkmark {
+  display: inline-block;
+  height: 5vh;
+  width: 23%;
+  background-color: #faf7f2;
+  border-radius: 5px;
+  margin-right: 5%;
+  margin-bottom: 8%;
+  margin-top: 8%;
+  position: relative;
+}
+
+.checkbox input:checked ~ .checkmark {
+  background-color: #fdc913;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.checkbox .checkmark:after {
+  left: 38%;
+  top: 8%;
+  width: 9px;
+  height: 22px;
+  border: solid #5f5f5f;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.siparis-notu {
+  width: 100%;
+  padding-bottom: 3%;
+  border-bottom: 1px solid #5f5f5f;
+}
+
+.siparis-notu input {
+  width: 100%;
+  height: 3vw;
+  background-color: #faf7f2;
+  border: #faf7f2;
+}
+
+.adet-toplam {
+  width: 100;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 5% 0;
+}
+
+.adet-button {
+  width: 30%;
+  margin-left: 3%;
+}
+
+.adet-button input {
+  width: 15%;
+  height: 3.5vw;
+  background-color: #faf7f2;
+  border: #faf7f2;
+}
+
+.adet-button button {
+  width: 20%;
+  height: 3.5vw;
+  background-color: #faf7f2;
+  border: #faf7f2;
+}
+
+.siparis-tutari {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #faf7f2;
+}
+
+.siparis-tutari h3 {
+  width: 100%;
+  margin: 0% 15%;
+  margin-top: 6%;
+}
+
+.siparis-tutari button {
+  width: 100%;
+  text-align: center;
+  height: 3vw;
+  background-color: #fdc913;
+  border: #fdc913;
+}
+
+.fiyat {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 15%;
+}
+
+.fiyat p {
+  width: 50%;
+  margin: 4% 0;
+}
+
+a {
+  text-decoration: none;
+}
